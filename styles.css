@@ -1,7 +1,10 @@
 html,body {
     margin: 0;
     padding: 0;
-    background-color: lightcoral;
+    background-color: black;
+}
+#container {
+    
 }
 
 .hero_header {
@@ -10,12 +13,14 @@ html,body {
     flex-wrap: wrap;
     margin: 10px;
     padding: 10px;
-    
+    border-radius: 10px;
+    justify-content: center;
+    font-size: x-large;
 }
 
-h1 {
-    background-color: white;
+h1,p {
+    color: greenyellow;
     text-align: center;
-    font-style: oblique;
-    font: arial;    
+    font-family: monospace;    
 }
+
