@@ -1,0 +1,21 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    background-color: lightcoral;
+}
+
+.hero_header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+h1 {
+    background-color: white;
+    text-align: center;
+    font-style: oblique;
+    font: arial;    
+}
