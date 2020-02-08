@@ -5,7 +5,7 @@ html,body {
 }
 .grid_container {
     display: grid;
-    grid-template-columns: auto;   
+    grid-auto-flow: auto;   
 }
 
 .grid_items {
@@ -13,6 +13,12 @@ html,body {
     color: white;
     font-size: xx-large;
 }
+
+/* .grid_items:hover{
+    display: grid;
+    font-size: xx-large;
+    font-weight: bolder;
+} */
 
 #grid_items2 {
     display: inline-grid;
@@ -36,9 +42,16 @@ div {
     color: red;
 }
 
-h1,h2,h7,p {
+h1,h2,h6,p {
     color: greenyellow;
     text-align: center;
     font-family: monospace;    
 }
 
+
+h1:hover,h2:hover,h6:hover,p:hover {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    text-shadow: 5px 5px 10px darkolivegreen;    
+}

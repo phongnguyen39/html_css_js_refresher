@@ -1,4 +1,4 @@
-
+import {element_names} from '/periodic-table';
 
 
 
