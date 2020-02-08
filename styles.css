@@ -3,8 +3,22 @@ html,body {
     padding: 0;
     background-color: black;
 }
-#container {
-    
+.grid_container {
+    display: grid;
+    grid-template-columns: auto;   
+}
+
+.grid_items {
+    display: grid;
+    color: white;
+    font-size: xx-large;
+}
+
+#grid_items2 {
+    display: inline-grid;
+    height: 10%;
+    width: 10%;
+    border-color: white;
 }
 
 .hero_header {
@@ -18,7 +32,11 @@ html,body {
     font-size: x-large;
 }
 
-h1,p {
+div {
+    color: red;
+}
+
+h1,h2,h7,p {
     color: greenyellow;
     text-align: center;
     font-family: monospace;    
