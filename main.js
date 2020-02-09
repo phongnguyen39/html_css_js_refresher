@@ -1,6 +1,6 @@
-import {element_names} from '/periodic-table';
+import {allElements} from '../periodic-table'
 
-
+window.alert(allElements[0])
 
 let d = new Date();
 console.log(d);
@@ -14,7 +14,5 @@ function repeater() {
     return repeat_output;
 }
 repeater();
-
-
 
 document.getElementById('date_time').innerHTML = d;
