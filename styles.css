@@ -6,6 +6,7 @@ html,body {
 .grid_container {
     display: grid;
     grid-auto-flow: auto;   
+    z-index: 0;
 }
 
 .grid_items {
@@ -27,15 +28,17 @@ html,body {
     border-color: white;
 }
 
-.hero_header {
+#date_time {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 0px 0px 0px 90%;
     padding: 10px;
     border-radius: 10px;
-    justify-content: center;
     font-size: x-large;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
 }
 
 
